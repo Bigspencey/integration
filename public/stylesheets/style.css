@@ -1,6 +1,11 @@
+@font-face {
+	font-family: "Proxima-Nova";
+	src: url("../fonts/Mark-Simonson-Proxima-Nova.otf") format('opentype');
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 10px;
+  font: 14px Proxima-Nova, Times New Roman, Arial, sans-serif !important;
 }
 
 a {
